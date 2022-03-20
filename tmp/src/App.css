@@ -40,14 +40,3 @@
 .nav > li:hover {
   background: lightcyan;
 }
-
-#FakeBAYCTokenImg{
-    width: 200px;
-    height: 200px;
-}
-
-#FakeNefturianItem{
-    background-color: lightgrey;
-    border-color: black;
-    border-radius: 5px;
-}
