@@ -3,21 +3,6 @@
     margin: 100px;
 }
 
-.cta-button {
-    padding: 8px;
-    border: none;
-    border-radius: 12px;
-    min-width: 150px;
-    height: 50px;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.connect-wallet-button {
-    background: rgb(32, 129, 226);
-}
-
 .mint-nft-button {
     background: orange;
 }
@@ -48,15 +33,10 @@
   background: lightcyan;
 }
 
-#FakeBAYCTokenImg{
-    width: 200px;
-    height: 200px;
-}
 
-#FakeNefturianItem{
-    background-color: lightgrey;
-    border-color: black;
-    border-radius: 5px;
+.nav-button {
+    color: white !important;
+    border-radius: 8px !important;
 }
 
 .form {

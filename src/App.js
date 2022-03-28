@@ -3,9 +3,7 @@ import { ethers } from 'ethers';
 import './App.css';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Routes, Link, useNavigate, useLocation } from 'react-router-dom';
-// import Web3 from 'web3';
-// import Web3Provider from 'react-web3-provider';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NFTree_contract from './contracts/NFTree_contract_abi.json';
 const NFTree_contract_abi = NFTree_contract.abi; 
@@ -78,7 +76,7 @@ function App() {
 
   const connectWalletButton = () => {
     return (
-      <button onClick={connectWalletHandler} className='cta-button connect-wallet-button'>
+      <button onClick={connectWalletHandler} className="btn btn-primary">
         Connect Wallet
       </button>
     )
@@ -230,7 +228,7 @@ function App() {
         <BrowserRouter>
           <div class="nav-main">
             <ul class="nav">
-              <li><Link to="/">Accueil</Link></li>
+              <button class="btn btn-primary nav-button"><Link to="/">Accueil</Link></button>
               <li><Link to="/market">Marché</Link></li>
               <li><Link to="/myNFTrees">Mes NFTrees</Link></li>
               <li><Link to="/newNFTree">Nouveau NFTree</Link></li>
