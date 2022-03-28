@@ -4,12 +4,13 @@
 }
 
 .cta-button {
-    padding: 15px;
+    padding: 8px;
     border: none;
     border-radius: 12px;
-    min-width: 250px;
+    min-width: 150px;
+    height: 50px;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -19,6 +20,12 @@
 
 .mint-nft-button {
     background: orange;
+}
+
+.nav-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .nav {
@@ -50,4 +57,11 @@
     background-color: lightgrey;
     border-color: black;
     border-radius: 5px;
+}
+
+.form {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
 }
